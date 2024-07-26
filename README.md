@@ -15,7 +15,7 @@ Masukkan perintah dibawah untuk menginstall Autoscript Premium
 ```
 apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/litfina/VVIP/main/ubu20-deb10-stable.sh && chmod +x ubu20-deb10-stable.sh && ./ubu20-deb10-stable.sh
 ```
-### ataugak pake yang ini
+### atau gak pake yang ini
 ```
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/litfina/VVIP/main/ubu20-deb10-stable.sh && chmod +x ubu20-deb10-stable.sh && sed -i -e 's/\r$//' ubu20-deb10-stable.sh && screen -S main ./ubu20-deb10-stable.sh
 ```
