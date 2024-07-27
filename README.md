@@ -1,4 +1,8 @@
-see## UPGRADE FOR DEBIAN
+# `jika saat kalian menginstall auto scrip nya haproxy nya off maka kalian bisa ke link ini `
+```
+https://github.com/litfina/cara-mengaktifkan-haproxy-di-auto-scrip-jika-tidak-berjalan-
+```
+## UPGRADE FOR DEBIAN
 Masukkan perintah dibawah jika anda menggunakan OS Debian Version 9 atau 10
 ```
 apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
